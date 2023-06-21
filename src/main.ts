@@ -81,8 +81,8 @@ export class BracketsViewer {
             stages: [stage],
             matches: data.matches.filter(match => match.stage_id === stage.id),
         }));
-
-        findRoot(config?.selector).append(root);
+        
+        config?.selector.append(root);
     }
 
     /**
