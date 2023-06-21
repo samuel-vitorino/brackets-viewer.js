@@ -59,7 +59,7 @@ export interface Config {
     /**
      * An optional selector to select the root element.
      */
-    selector?: string,
+    selector?: HTMLElement,
 
     /**
      * Where the position of a participant is placed relative to its name.
