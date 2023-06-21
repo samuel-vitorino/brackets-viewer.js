@@ -5,6 +5,7 @@
     "files": [
         "dist/"
     ],
+    "main": "./dist/brackets-viewer.min.js",
     "scripts": {
         "db": "npx json-server --watch demo/db.json",
         "build": "npx webpack --mode production",
