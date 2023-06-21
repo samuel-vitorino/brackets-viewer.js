@@ -81,8 +81,10 @@ export class BracketsViewer {
             stages: [stage],
             matches: data.matches.filter(match => match.stage_id === stage.id),
         }));
-        
-        config?.selector.append(root);
+
+        if (config?.selector) {
+            config!.selector.append(root);
+        }
     }
 
     /**
